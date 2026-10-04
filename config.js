@@ -29,7 +29,7 @@ window.WEDDING = {
   },
 
   // Paste your Google Apps Script Web App URL here (ends with /exec). See README.
-  scriptUrl: "",
+  scriptUrl: "https://docs.google.com/spreadsheets/d/1ThSZIkxWgS1VrJZWCSDOOoCDOHujK3UdVHQRcIbQMJI/edit?gid=0#gid=0",
 
   // Put an mp3 at assets/music.mp3 (see README). Leave "" to hide the music button.
   music: "assets/music.mp3",
