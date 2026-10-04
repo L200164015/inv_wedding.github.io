@@ -2,8 +2,8 @@
    EDIT ONLY THIS FILE to change names, date, venue, gifts, etc.
    ============================================================ */
 window.WEDDING = {
-  groom: { full: "Arrotama Hafedmawan", nick: "Arrotama", father: "XXX", mother: "XXX" },
-  bride: { full: "Assyati Amadjida Tamimi Marzuki", nick: "Assyati", father: "XXX", mother: "XXX" },
+  groom: { full: "Arrotama Hafedmawan", nick: "Arrotama", father: "Subur Priyono", mother: "Triyanti Budi Nugroho Dewi" },
+  bride: { full: "Assyati Amadjida Tamimi Marzuki", nick: "Assyati", father: "Alm. Taslim", mother: "Yusnel Dewita" },
 
   // Date + time in Jakarta time (WIB, +07:00). Change the time when confirmed.
   dateISO: "2026-11-14T10:00:00+07:00",
