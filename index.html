@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Wedding of Assyati & Arrotama · 14 November 2026</title>
+<meta name="description" content="Undangan pernikahan Assyati & Arrotama — 14 November 2026.">
+<meta name="theme-color" content="#F7E3E6">
+<meta property="og:title" content="The Wedding of Assyati & Arrotama">
+<meta property="og:description" content="14 November 2026 · Jakarta Utara">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<!-- Reusable flower art -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="blossom" viewBox="-50 -50 100 100">
+      <g fill="currentColor">
+        <g id="p"><path d="M0 0 C-16 -12 -16 -38 0 -46 C16 -38 16 -12 0 0Z"/></g>
+        <use href="#p" transform="rotate(72)"/><use href="#p" transform="rotate(144)"/>
+        <use href="#p" transform="rotate(216)"/><use href="#p" transform="rotate(288)"/>
+      </g>
+      <circle r="7" fill="#F3D27A" opacity=".9"/>
+      <g stroke="#C98B5A" stroke-width="1.4" stroke-linecap="round">
+        <path d="M0 0L0 -13"/><path d="M0 0L12 -4"/><path d="M0 0L8 11"/><path d="M0 0L-8 11"/><path d="M0 0L-12 -4"/>
+      </g>
+    </symbol>
+    <symbol id="leaf" viewBox="0 0 40 90">
+      <path d="M20 88 C-6 60 -2 20 20 2 C42 20 46 60 20 88Z" fill="currentColor"/>
+      <path d="M20 86 L20 14" stroke="#fff" stroke-opacity=".45" stroke-width="1.2" fill="none"/>
+    </symbol>
+    <symbol id="sprig" viewBox="0 0 200 200">
+      <path d="M8 192 C60 150 110 100 188 12" stroke="#7E9A6B" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <use href="#leaf" x="36" y="120" width="26" height="58" style="color:#8DA777" transform="rotate(-50 49 149)"/>
+      <use href="#leaf" x="70" y="96" width="24" height="54" style="color:#A3B98F" transform="rotate(25 82 123)"/>
+      <use href="#leaf" x="104" y="60" width="24" height="54" style="color:#8DA777" transform="rotate(-45 116 87)"/>
+      <use href="#leaf" x="140" y="34" width="22" height="48" style="color:#A3B98F" transform="rotate(30 151 58)"/>
+      <use href="#blossom" x="22" y="86" width="52" height="52" style="color:#F2B8C6"/>
+      <use href="#blossom" x="92" y="22" width="44" height="44" style="color:#F7D0DA"/>
+      <use href="#blossom" x="134" y="96" width="34" height="34" style="color:#EDA7B9"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ============ COVER ============ -->
+<section id="cover" class="cover">
+  <div class="cover-bg" data-photo="cover"></div>
+  <svg class="sprig tl" aria-hidden="true"><use href="#sprig"/></svg>
+  <svg class="sprig br" aria-hidden="true"><use href="#sprig"/></svg>
+  <div class="cover-inner">
+    <p class="small">The Wedding of</p>
+    <h1 class="names"><span id="cvBride"></span><i>&amp;</i><span id="cvGroom"></span></h1>
+    <p class="date-line" id="cvDate"></p>
+    <div class="guest">
+      <p class="small">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+      <p class="guest-name" id="guestName">Tamu Undangan</p>
+    </div>
+    <button class="btn" id="openBtn" type="button">Buka Undangan</button>
+  </div>
+</section>
+
+<main id="main" hidden>
+
+<!-- ============ COUPLE ============ -->
+<section class="sec couple" id="couple">
+  <p class="script">Bismillahirrahmanirrahim</p>
+  <p class="lead">Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk hadir pada pernikahan kami.</p>
+
+  <div class="person">
+    <h2 id="brideFull"></h2>
+    <p class="parents">Putri dari<br>Bapak <b data-k="bride.father"></b> &amp; Ibu <b data-k="bride.mother"></b></p>
+  </div>
+
+  <svg class="amp" aria-hidden="true"><use href="#blossom"/></svg>
+
+  <div class="person">
+    <h2 id="groomFull"></h2>
+    <p class="parents">Putra dari<br>Bapak <b data-k="groom.father"></b> &amp; Ibu <b data-k="groom.mother"></b></p>
+  </div>
+</section>
+
+
+<!-- ============ GALLERY ============ -->
+<section class="sec gallery" id="gallery">
+  <h2 class="title">Momen Kami</h2>
+  <div class="grid">
+    <figure class="g1"><img alt="Foto berdua" data-photo="g1" loading="lazy"></figure>
+    <figure class="g2"><img alt="Foto berdua" data-photo="g2" loading="lazy"></figure>
+    <figure class="g3"><img alt="Foto berdua" data-photo="g3" loading="lazy"></figure>
+  </div>
+</section>
+
+<!-- ============ COUNTDOWN ============ -->
+<section class="sec count" id="countdown">
+  <h2 class="title">Menuju Hari Bahagia</h2>
+  <div class="clock" role="timer" aria-live="off">
+    <div><b id="cd-d">00</b><span>Hari</span></div>
+    <div><b id="cd-h">00</b><span>Jam</span></div>
+    <div><b id="cd-m">00</b><span>Menit</span></div>
+    <div><b id="cd-s">00</b><span>Detik</span></div>
+  </div>
+</section>
+
+<!-- ============ EVENT ============ -->
+<section class="sec event" id="event">
+  <h2 class="title">Akad &amp; Resepsi</h2>
+  <a class="card date-card" id="saveDate" target="_blank" rel="noopener" aria-label="Simpan tanggal ke Google Calendar">
+    <p class="dow" id="evDow"></p>
+    <p class="big" id="evDay"></p>
+    <p class="mon" id="evMonth"></p>
+    <p class="time" id="evTime"></p>
+    <p class="hint">Ketuk untuk simpan ke Google Calendar</p>
+  </a>
+  <a class="card venue-card" id="venueLink" target="_blank" rel="noopener">
+    <p class="venue-name" id="venueName"></p>
+    <p id="venueAddr"></p>
+    <p class="hint">Ketuk untuk buka Google Maps</p>
+  </a>
+</section>
+
+<!-- ============ MAP ============ -->
+<section class="sec mapsec" id="map">
+  <h2 class="title">Lokasi</h2>
+  <div class="map-wrap"><iframe id="mapFrame" title="Peta lokasi acara" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  <a class="btn ghost" id="mapBtn" target="_blank" rel="noopener">Petunjuk Arah</a>
+</section>
+
+<!-- ============ RSVP ============ -->
+<section class="sec rsvp" id="rsvp">
+  <h2 class="title">Konfirmasi Kehadiran</h2>
+  <form id="rsvpForm" class="card form" novalidate>
+    <label>Nama lengkap
+      <input name="name" type="text" required maxlength="80" autocomplete="name">
+    </label>
+    <fieldset>
+      <legend>Apakah Anda akan hadir?</legend>
+      <div class="seg">
+        <input type="radio" name="attendance" id="att1" value="Hadir" checked><label for="att1">Hadir</label>
+        <input type="radio" name="attendance" id="att0" value="Tidak Hadir"><label for="att0">Tidak hadir</label>
+      </div>
+    </fieldset>
+    <label id="guestsRow">Jumlah tamu
+      <select name="guests"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+    </label>
+    <label>Ucapan &amp; doa
+      <textarea name="message" rows="4" maxlength="400" placeholder="Tulis ucapan untuk kedua mempelai"></textarea>
+    </label>
+    <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button class="btn" type="submit" id="sendBtn">Kirim Konfirmasi</button>
+    <p class="status" id="formStatus" role="status"></p>
+  </form>
+</section>
+
+<!-- ============ WISHES ============ -->
+<section class="sec wishes" id="wishes">
+  <h2 class="title">Ucapan &amp; Doa</h2>
+  <div class="wish-list" id="wishList" aria-live="polite"><p class="empty">Memuat ucapan…</p></div>
+</section>
+
+<!-- ============ GIFT ============ -->
+<section class="sec gift" id="gift">
+  <h2 class="title">Wanna give us some gifts?</h2>
+  <p class="lead">Kehadiran Anda adalah hadiah terindah. Namun jika ingin berbagi kebahagiaan, kami menerimanya dengan penuh syukur.</p>
+  <div class="card gift-card">
+    <p class="label">Rekening</p>
+    <p class="acct" id="giftBank"></p>
+    <p class="num" id="giftNum"></p>
+    <p id="giftHolder"></p>
+    <button class="btn small-btn" type="button" id="copyBtn">Salin nomor</button>
+    <hr>
+    <p class="label">Alamat pengiriman hadiah</p>
+    <p id="giftAddr"></p>
+  </div>
+</section>
+
+<!-- ============ CLOSING ============ -->
+<section class="sec closing" id="closing">
+  <div class="closing-bg" data-photo="closing"></div>
+  <svg class="sprig tl" aria-hidden="true"><use href="#sprig"/></svg>
+  <div class="closing-in">
+    <p class="lead">Merupakan kebahagiaan dan kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+    <p class="script">Terima kasih</p>
+    <p class="names small-names" id="clNames"></p>
+  </div>
+</section>
+</main>
+
+<button class="music" id="musicBtn" type="button" hidden aria-label="Putar atau jeda musik">
+  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>
+</button>
+<audio id="bgm" loop preload="none"></audio>
+<div class="petals" id="petals" aria-hidden="true"></div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
