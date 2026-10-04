@@ -23,7 +23,7 @@ window.WEDDING = {
 
   gift: {
     bankName: "Nama Bank",
-    accountNumber: "XXX",
+    accountNumber: "123456789",
     accountHolder: "XXX",
     address: "XXX"
   },
